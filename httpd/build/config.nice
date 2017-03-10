@@ -1,0 +1,8 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--prefix=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd" \
+"--with-pcre=/usr/local/pcre" \
+"$@"

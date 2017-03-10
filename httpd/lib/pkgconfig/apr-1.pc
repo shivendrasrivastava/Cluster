@@ -1,0 +1,11 @@
+prefix=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd
+exec_prefix=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd
+libdir=${prefix}/lib
+APR_MAJOR_VERSION=1
+includedir=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/include
+
+Name: APR
+Description: The Apache Portable Runtime library
+Version: 1.5.2
+Libs: -L${libdir} -lapr-${APR_MAJOR_VERSION} -lpthread
+Cflags: -DDARWIN -DSIGPROCMASK_SETS_THREAD_MASK -DDARWIN_10 -g -O2 -I${includedir}

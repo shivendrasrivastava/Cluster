@@ -1,0 +1,6 @@
+com/sap/fieldglass/service/FileReaderService.class
+com/sap/fieldglass/controller/AppController.class
+com/sap/fieldglass/beans/Message.class
+com/sap/fieldglass/service/impl/FileReaderServiceImpl.class
+com/sap/fieldglass/service/impl/NotificationServiceImpl.class
+com/sap/fieldglass/service/NotificationService.class

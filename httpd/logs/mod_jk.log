@@ -1,0 +1,393 @@
+[Thu Mar 09 15:33:14.082 2017] [19387:140735836701632] [info] init_jk::mod_jk.c (3595): mod_jk/1.2.42 initialized
+[Thu Mar 09 15:33:14.091 2017] [19401:140735836701632] [info] init_jk::mod_jk.c (3595): mod_jk/1.2.42 initialized
+[Thu Mar 09 15:33:24.065 2017] [19403:123145405190144] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:33:24.065 2017] [19403:123145405190144] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:33:24.065 2017] [19403:123145405190144] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:33:24.065 2017] [19403:123145405190144] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:33:24.171 2017] [19403:123145405190144] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:33:24.171 2017] [19403:123145405190144] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:33:24.171 2017] [19403:123145405190144] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:33:24.171 2017] [19403:123145405190144] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:33:24.171 2017] [19403:123145405190144] [error] ajp_service::jk_ajp_common.c (2799): (worker1) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Thu Mar 09 15:33:24.171 2017] [19403:123145405190144] [info] service::jk_lb_worker.c (1590): service failed, worker worker1 is in error state
+[Thu Mar 09 15:33:24.172 2017] [19403:123145405190144] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:33:24.172 2017] [19403:123145405190144] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:33:24.172 2017] [19403:123145405190144] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:33:24.172 2017] [19403:123145405190144] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:33:24.274 2017] [19403:123145405190144] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:33:24.274 2017] [19403:123145405190144] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:33:24.274 2017] [19403:123145405190144] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:33:24.275 2017] [19403:123145405190144] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:33:24.275 2017] [19403:123145405190144] [error] ajp_service::jk_ajp_common.c (2799): (worker2) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Thu Mar 09 15:33:24.275 2017] [19403:123145405190144] [info] service::jk_lb_worker.c (1590): service failed, worker worker2 is in error state
+[Thu Mar 09 15:33:24.277 2017] [19403:123145405190144] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:33:24.277 2017] [19403:123145405190144] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:33:24.277 2017] [19403:123145405190144] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:33:24.277 2017] [19403:123145405190144] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:33:24.381 2017] [19403:123145405190144] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:33:24.381 2017] [19403:123145405190144] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:33:24.381 2017] [19403:123145405190144] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:33:24.381 2017] [19403:123145405190144] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:33:24.381 2017] [19403:123145405190144] [error] ajp_service::jk_ajp_common.c (2799): (worker3) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Thu Mar 09 15:33:24.381 2017] [19403:123145405190144] [info] service::jk_lb_worker.c (1590): service failed, worker worker3 is in error state
+[Thu Mar 09 15:33:24.484 2017] [19403:123145405190144] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 3 workers
+[Thu Mar 09 15:33:24.485 2017] [19403:123145405190144] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:33:24.486 2017] [19403:123145405190144] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:33:24.486 2017] [19403:123145405190144] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:33:24.486 2017] [19403:123145405190144] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:33:24.591 2017] [19403:123145405190144] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:33:24.592 2017] [19403:123145405190144] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:33:24.592 2017] [19403:123145405190144] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:33:24.592 2017] [19403:123145405190144] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:33:24.592 2017] [19403:123145405190144] [error] ajp_service::jk_ajp_common.c (2799): (worker1) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Thu Mar 09 15:33:24.592 2017] [19403:123145405190144] [info] service::jk_lb_worker.c (1590): service failed, worker worker1 is in error state
+[Thu Mar 09 15:33:24.592 2017] [19403:123145405190144] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:33:24.592 2017] [19403:123145405190144] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:33:24.593 2017] [19403:123145405190144] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:33:24.593 2017] [19403:123145405190144] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:33:24.698 2017] [19403:123145405190144] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:33:24.698 2017] [19403:123145405190144] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:33:24.698 2017] [19403:123145405190144] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:33:24.698 2017] [19403:123145405190144] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:33:24.698 2017] [19403:123145405190144] [error] ajp_service::jk_ajp_common.c (2799): (worker2) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Thu Mar 09 15:33:24.699 2017] [19403:123145405190144] [info] service::jk_lb_worker.c (1590): service failed, worker worker2 is in error state
+[Thu Mar 09 15:33:24.699 2017] [19403:123145405190144] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:33:24.699 2017] [19403:123145405190144] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:33:24.699 2017] [19403:123145405190144] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:33:24.699 2017] [19403:123145405190144] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:33:24.804 2017] [19403:123145405190144] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:33:24.804 2017] [19403:123145405190144] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:33:24.805 2017] [19403:123145405190144] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:33:24.805 2017] [19403:123145405190144] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:33:24.805 2017] [19403:123145405190144] [error] ajp_service::jk_ajp_common.c (2799): (worker3) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Thu Mar 09 15:33:24.805 2017] [19403:123145405190144] [info] service::jk_lb_worker.c (1590): service failed, worker worker3 is in error state
+[Thu Mar 09 15:33:24.805 2017] [19403:123145405190144] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Thu Mar 09 15:33:24.805 2017] [19403:123145405190144] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Thu Mar 09 15:33:24.805 2017] [19403:123145405190144] [info] jk_handler::mod_jk.c (2995): Service error=0 for worker=LoadBalancer
+[Thu Mar 09 15:35:33.447 2017] [19403:123145405726720] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:35:33.447 2017] [19403:123145405726720] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:35:33.447 2017] [19403:123145405726720] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.447 2017] [19403:123145405726720] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:33.551 2017] [19403:123145405726720] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:35:33.551 2017] [19403:123145405726720] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:35:33.551 2017] [19403:123145405726720] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.551 2017] [19403:123145405726720] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:33.551 2017] [19403:123145405726720] [error] ajp_service::jk_ajp_common.c (2799): (worker1) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Thu Mar 09 15:35:33.551 2017] [19403:123145405726720] [info] service::jk_lb_worker.c (1590): service failed, worker worker1 is in error state
+[Thu Mar 09 15:35:33.551 2017] [19403:123145405726720] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:35:33.551 2017] [19403:123145405726720] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:35:33.551 2017] [19403:123145405726720] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.551 2017] [19403:123145405726720] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:33.657 2017] [19403:123145405726720] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:35:33.657 2017] [19403:123145405726720] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:35:33.657 2017] [19403:123145405726720] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.657 2017] [19403:123145405726720] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:33.657 2017] [19403:123145405726720] [error] ajp_service::jk_ajp_common.c (2799): (worker2) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Thu Mar 09 15:35:33.657 2017] [19403:123145405726720] [info] service::jk_lb_worker.c (1590): service failed, worker worker2 is in error state
+[Thu Mar 09 15:35:33.657 2017] [19403:123145405726720] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:35:33.657 2017] [19403:123145405726720] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:35:33.657 2017] [19403:123145405726720] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.657 2017] [19403:123145405726720] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:33.683 2017] [19404:123145464750080] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Thu Mar 09 15:35:33.684 2017] [19404:123145464750080] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:35:33.684 2017] [19404:123145464750080] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:35:33.684 2017] [19404:123145464750080] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.684 2017] [19404:123145464750080] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:33.762 2017] [19403:123145405726720] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:35:33.762 2017] [19403:123145405726720] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:35:33.762 2017] [19403:123145405726720] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.763 2017] [19403:123145405726720] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:33.763 2017] [19403:123145405726720] [error] ajp_service::jk_ajp_common.c (2799): (worker3) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Thu Mar 09 15:35:33.763 2017] [19403:123145405726720] [info] service::jk_lb_worker.c (1590): service failed, worker worker3 is in error state
+[Thu Mar 09 15:35:33.789 2017] [19404:123145464750080] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:35:33.789 2017] [19404:123145464750080] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:35:33.789 2017] [19404:123145464750080] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.789 2017] [19404:123145464750080] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:33.789 2017] [19404:123145464750080] [error] ajp_service::jk_ajp_common.c (2799): (worker1) connecting to tomcat failed (rc=-3, errors=4, client_errors=0).
+[Thu Mar 09 15:35:33.789 2017] [19404:123145464750080] [info] service::jk_lb_worker.c (1590): service failed, worker worker1 is in error state
+[Thu Mar 09 15:35:33.789 2017] [19404:123145464750080] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:35:33.789 2017] [19404:123145464750080] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:35:33.789 2017] [19404:123145464750080] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.790 2017] [19404:123145464750080] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:33.864 2017] [19403:123145405726720] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:35:33.864 2017] [19403:123145405726720] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:35:33.864 2017] [19403:123145405726720] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.864 2017] [19403:123145405726720] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:33.892 2017] [19404:123145464750080] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:35:33.892 2017] [19404:123145464750080] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:35:33.892 2017] [19404:123145464750080] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.892 2017] [19404:123145464750080] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:33.892 2017] [19404:123145464750080] [error] ajp_service::jk_ajp_common.c (2799): (worker2) connecting to tomcat failed (rc=-3, errors=4, client_errors=0).
+[Thu Mar 09 15:35:33.893 2017] [19404:123145464750080] [info] service::jk_lb_worker.c (1590): service failed, worker worker2 is in error state
+[Thu Mar 09 15:35:33.893 2017] [19404:123145464750080] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=3, retry=0)
+[Thu Mar 09 15:35:33.968 2017] [19403:123145405726720] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:35:33.969 2017] [19403:123145405726720] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:35:33.969 2017] [19403:123145405726720] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.969 2017] [19403:123145405726720] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:33.969 2017] [19403:123145405726720] [error] ajp_service::jk_ajp_common.c (2799): (worker2) connecting to tomcat failed (rc=-3, errors=5, client_errors=0).
+[Thu Mar 09 15:35:33.969 2017] [19403:123145405726720] [info] service::jk_lb_worker.c (1590): service failed, worker worker2 is in error state
+[Thu Mar 09 15:35:33.969 2017] [19403:123145405726720] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 3 workers
+[Thu Mar 09 15:35:33.969 2017] [19403:123145405726720] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:35:33.970 2017] [19403:123145405726720] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:35:33.970 2017] [19403:123145405726720] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.970 2017] [19403:123145405726720] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:33.998 2017] [19404:123145464750080] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:35:33.998 2017] [19404:123145464750080] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:35:33.998 2017] [19404:123145464750080] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:33.998 2017] [19404:123145464750080] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:34.075 2017] [19403:123145405726720] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:35:34.075 2017] [19403:123145405726720] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:35:34.075 2017] [19403:123145405726720] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:34.075 2017] [19403:123145405726720] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:34.075 2017] [19403:123145405726720] [error] ajp_service::jk_ajp_common.c (2799): (worker3) connecting to tomcat failed (rc=-3, errors=4, client_errors=0).
+[Thu Mar 09 15:35:34.075 2017] [19403:123145405726720] [info] service::jk_lb_worker.c (1590): service failed, worker worker3 is in error state
+[Thu Mar 09 15:35:34.075 2017] [19403:123145405726720] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:35:34.076 2017] [19403:123145405726720] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:35:34.076 2017] [19403:123145405726720] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:34.076 2017] [19403:123145405726720] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:34.104 2017] [19404:123145464750080] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:35:34.104 2017] [19404:123145464750080] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:35:34.104 2017] [19404:123145464750080] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:34.104 2017] [19404:123145464750080] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:34.104 2017] [19404:123145464750080] [error] ajp_service::jk_ajp_common.c (2799): (worker3) connecting to tomcat failed (rc=-3, errors=5, client_errors=0).
+[Thu Mar 09 15:35:34.104 2017] [19404:123145464750080] [info] service::jk_lb_worker.c (1590): service failed, worker worker3 is in error state
+[Thu Mar 09 15:35:34.105 2017] [19404:123145464750080] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:35:34.105 2017] [19404:123145464750080] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:35:34.105 2017] [19404:123145464750080] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:34.105 2017] [19404:123145464750080] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:34.179 2017] [19403:123145405726720] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:35:34.180 2017] [19403:123145405726720] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:35:34.180 2017] [19403:123145405726720] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:34.180 2017] [19403:123145405726720] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:34.180 2017] [19403:123145405726720] [error] ajp_service::jk_ajp_common.c (2799): (worker1) connecting to tomcat failed (rc=-3, errors=5, client_errors=0).
+[Thu Mar 09 15:35:34.180 2017] [19403:123145405726720] [info] service::jk_lb_worker.c (1590): service failed, worker worker1 is in error state
+[Thu Mar 09 15:35:34.180 2017] [19403:123145405726720] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Thu Mar 09 15:35:34.180 2017] [19403:123145405726720] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Thu Mar 09 15:35:34.180 2017] [19403:123145405726720] [info] jk_handler::mod_jk.c (2995): Service error=0 for worker=LoadBalancer
+[Thu Mar 09 15:35:34.209 2017] [19404:123145464750080] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:35:34.209 2017] [19404:123145464750080] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:35:34.209 2017] [19404:123145464750080] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:34.209 2017] [19404:123145464750080] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:34.209 2017] [19404:123145464750080] [error] ajp_service::jk_ajp_common.c (2799): (worker1) connecting to tomcat failed (rc=-3, errors=6, client_errors=0).
+[Thu Mar 09 15:35:34.209 2017] [19404:123145464750080] [info] service::jk_lb_worker.c (1590): service failed, worker worker1 is in error state
+[Thu Mar 09 15:35:34.210 2017] [19404:123145464750080] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:35:34.210 2017] [19404:123145464750080] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:35:34.210 2017] [19404:123145464750080] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:34.210 2017] [19404:123145464750080] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:34.314 2017] [19404:123145464750080] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:35:34.314 2017] [19404:123145464750080] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:35:34.315 2017] [19404:123145464750080] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:34.315 2017] [19404:123145464750080] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:34.315 2017] [19404:123145464750080] [error] ajp_service::jk_ajp_common.c (2799): (worker2) connecting to tomcat failed (rc=-3, errors=6, client_errors=0).
+[Thu Mar 09 15:35:34.315 2017] [19404:123145464750080] [info] service::jk_lb_worker.c (1590): service failed, worker worker2 is in error state
+[Thu Mar 09 15:35:34.315 2017] [19404:123145464750080] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Thu Mar 09 15:35:34.315 2017] [19404:123145464750080] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Thu Mar 09 15:35:34.315 2017] [19404:123145464750080] [info] jk_handler::mod_jk.c (2995): Service error=0 for worker=LoadBalancer
+[Thu Mar 09 15:35:44.680 2017] [19430:123145365823488] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 3 workers
+[Thu Mar 09 15:35:44.681 2017] [19430:123145365823488] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:35:44.681 2017] [19430:123145365823488] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:35:44.681 2017] [19430:123145365823488] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:44.681 2017] [19430:123145365823488] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:44.786 2017] [19430:123145365823488] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:35:44.786 2017] [19430:123145365823488] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:35:44.786 2017] [19430:123145365823488] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:44.786 2017] [19430:123145365823488] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:44.786 2017] [19430:123145365823488] [error] ajp_service::jk_ajp_common.c (2799): (worker3) connecting to tomcat failed (rc=-3, errors=6, client_errors=0).
+[Thu Mar 09 15:35:44.786 2017] [19430:123145365823488] [info] service::jk_lb_worker.c (1590): service failed, worker worker3 is in error state
+[Thu Mar 09 15:35:44.787 2017] [19430:123145365823488] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:35:44.787 2017] [19430:123145365823488] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:35:44.787 2017] [19430:123145365823488] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:44.787 2017] [19430:123145365823488] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:44.891 2017] [19430:123145365823488] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:35:44.891 2017] [19430:123145365823488] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:35:44.891 2017] [19430:123145365823488] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:44.892 2017] [19430:123145365823488] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:44.892 2017] [19430:123145365823488] [error] ajp_service::jk_ajp_common.c (2799): (worker1) connecting to tomcat failed (rc=-3, errors=7, client_errors=0).
+[Thu Mar 09 15:35:44.892 2017] [19430:123145365823488] [info] service::jk_lb_worker.c (1590): service failed, worker worker1 is in error state
+[Thu Mar 09 15:35:44.892 2017] [19430:123145365823488] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:35:44.892 2017] [19430:123145365823488] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:35:44.892 2017] [19430:123145365823488] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:44.893 2017] [19430:123145365823488] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:35:44.994 2017] [19430:123145365823488] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:35:44.994 2017] [19430:123145365823488] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:35:44.994 2017] [19430:123145365823488] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:35:44.994 2017] [19430:123145365823488] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:35:44.994 2017] [19430:123145365823488] [error] ajp_service::jk_ajp_common.c (2799): (worker2) connecting to tomcat failed (rc=-3, errors=7, client_errors=0).
+[Thu Mar 09 15:35:44.994 2017] [19430:123145365823488] [info] service::jk_lb_worker.c (1590): service failed, worker worker2 is in error state
+[Thu Mar 09 15:35:45.098 2017] [19430:123145365823488] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=1, retry=1)
+[Thu Mar 09 15:35:45.098 2017] [19430:123145365823488] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=2, retry=1)
+[Thu Mar 09 15:35:45.098 2017] [19430:123145365823488] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=3, retry=1)
+[Thu Mar 09 15:35:45.098 2017] [19430:123145365823488] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Thu Mar 09 15:35:45.098 2017] [19430:123145365823488] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Thu Mar 09 15:35:45.098 2017] [19430:123145365823488] [info] jk_handler::mod_jk.c (2995): Service error=0 for worker=LoadBalancer
+[Thu Mar 09 15:41:22.389 2017] [20740:140735836701632] [info] init_jk::mod_jk.c (3595): mod_jk/1.2.42 initialized
+[Thu Mar 09 15:41:22.400 2017] [20754:140735836701632] [info] init_jk::mod_jk.c (3595): mod_jk/1.2.42 initialized
+[Thu Mar 09 15:42:50.534 2017] [20756:123145359138816] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:42:50.534 2017] [20756:123145359138816] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:42:50.534 2017] [20756:123145359138816] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:42:50.534 2017] [20756:123145359138816] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:42:50.639 2017] [20756:123145359138816] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:42:50.639 2017] [20756:123145359138816] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:42:50.639 2017] [20756:123145359138816] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:42:50.639 2017] [20756:123145359138816] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:42:50.639 2017] [20756:123145359138816] [error] ajp_service::jk_ajp_common.c (2799): (worker1) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Thu Mar 09 15:42:50.639 2017] [20756:123145359138816] [info] service::jk_lb_worker.c (1590): service failed, worker worker1 is in error state
+[Thu Mar 09 15:42:50.640 2017] [20756:123145359138816] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:42:50.640 2017] [20756:123145359138816] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:42:50.640 2017] [20756:123145359138816] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:42:50.640 2017] [20756:123145359138816] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:42:50.745 2017] [20756:123145359138816] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:42:50.746 2017] [20756:123145359138816] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:42:50.746 2017] [20756:123145359138816] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:42:50.746 2017] [20756:123145359138816] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:42:50.746 2017] [20756:123145359138816] [error] ajp_service::jk_ajp_common.c (2799): (worker2) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Thu Mar 09 15:42:50.746 2017] [20756:123145359138816] [info] service::jk_lb_worker.c (1590): service failed, worker worker2 is in error state
+[Thu Mar 09 15:42:50.747 2017] [20756:123145359138816] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:42:50.747 2017] [20756:123145359138816] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:42:50.747 2017] [20756:123145359138816] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:42:50.747 2017] [20756:123145359138816] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:42:50.852 2017] [20756:123145359138816] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:42:50.853 2017] [20756:123145359138816] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:42:50.853 2017] [20756:123145359138816] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:42:50.853 2017] [20756:123145359138816] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:42:50.853 2017] [20756:123145359138816] [error] ajp_service::jk_ajp_common.c (2799): (worker3) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Thu Mar 09 15:42:50.853 2017] [20756:123145359138816] [info] service::jk_lb_worker.c (1590): service failed, worker worker3 is in error state
+[Thu Mar 09 15:42:50.956 2017] [20756:123145359138816] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 3 workers
+[Thu Mar 09 15:42:50.957 2017] [20756:123145359138816] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:42:50.957 2017] [20756:123145359138816] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:42:50.957 2017] [20756:123145359138816] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:42:50.957 2017] [20756:123145359138816] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:42:51.061 2017] [20756:123145359138816] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:42:51.062 2017] [20756:123145359138816] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:42:51.062 2017] [20756:123145359138816] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:42:51.062 2017] [20756:123145359138816] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:42:51.062 2017] [20756:123145359138816] [error] ajp_service::jk_ajp_common.c (2799): (worker1) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Thu Mar 09 15:42:51.062 2017] [20756:123145359138816] [info] service::jk_lb_worker.c (1590): service failed, worker worker1 is in error state
+[Thu Mar 09 15:42:51.062 2017] [20756:123145359138816] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:42:51.062 2017] [20756:123145359138816] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:42:51.062 2017] [20756:123145359138816] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:42:51.063 2017] [20756:123145359138816] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:42:51.166 2017] [20756:123145359138816] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:42:51.166 2017] [20756:123145359138816] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:42:51.166 2017] [20756:123145359138816] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:42:51.166 2017] [20756:123145359138816] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:42:51.166 2017] [20756:123145359138816] [error] ajp_service::jk_ajp_common.c (2799): (worker2) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Thu Mar 09 15:42:51.166 2017] [20756:123145359138816] [info] service::jk_lb_worker.c (1590): service failed, worker worker2 is in error state
+[Thu Mar 09 15:42:51.167 2017] [20756:123145359138816] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:42:51.167 2017] [20756:123145359138816] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:42:51.167 2017] [20756:123145359138816] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:42:51.167 2017] [20756:123145359138816] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:42:51.272 2017] [20756:123145359138816] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:42:51.273 2017] [20756:123145359138816] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:42:51.273 2017] [20756:123145359138816] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:42:51.273 2017] [20756:123145359138816] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:42:51.273 2017] [20756:123145359138816] [error] ajp_service::jk_ajp_common.c (2799): (worker3) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Thu Mar 09 15:42:51.273 2017] [20756:123145359138816] [info] service::jk_lb_worker.c (1590): service failed, worker worker3 is in error state
+[Thu Mar 09 15:42:51.273 2017] [20756:123145359138816] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Thu Mar 09 15:42:51.273 2017] [20756:123145359138816] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Thu Mar 09 15:42:51.273 2017] [20756:123145359138816] [info] jk_handler::mod_jk.c (2995): Service error=0 for worker=LoadBalancer
+[Thu Mar 09 15:43:04.351 2017] [20757:123145472569344] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 3 workers
+[Thu Mar 09 15:43:04.352 2017] [20757:123145472569344] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:43:04.352 2017] [20757:123145472569344] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:43:04.352 2017] [20757:123145472569344] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:43:04.352 2017] [20757:123145472569344] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:43:04.456 2017] [20757:123145472569344] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 15:43:04.456 2017] [20757:123145472569344] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 15:43:04.456 2017] [20757:123145472569344] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:43:04.456 2017] [20757:123145472569344] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:43:04.456 2017] [20757:123145472569344] [error] ajp_service::jk_ajp_common.c (2799): (worker1) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Thu Mar 09 15:43:04.457 2017] [20757:123145472569344] [info] service::jk_lb_worker.c (1590): service failed, worker worker1 is in error state
+[Thu Mar 09 15:43:04.457 2017] [20757:123145472569344] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:43:04.457 2017] [20757:123145472569344] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:43:04.457 2017] [20757:123145472569344] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:43:04.457 2017] [20757:123145472569344] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:43:04.559 2017] [20757:123145472569344] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 15:43:04.559 2017] [20757:123145472569344] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 15:43:04.559 2017] [20757:123145472569344] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:43:04.559 2017] [20757:123145472569344] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:43:04.560 2017] [20757:123145472569344] [error] ajp_service::jk_ajp_common.c (2799): (worker2) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Thu Mar 09 15:43:04.560 2017] [20757:123145472569344] [info] service::jk_lb_worker.c (1590): service failed, worker worker2 is in error state
+[Thu Mar 09 15:43:04.560 2017] [20757:123145472569344] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:43:04.560 2017] [20757:123145472569344] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:43:04.560 2017] [20757:123145472569344] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:43:04.560 2017] [20757:123145472569344] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 15:43:04.664 2017] [20757:123145472569344] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 15:43:04.665 2017] [20757:123145472569344] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 15:43:04.665 2017] [20757:123145472569344] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 15:43:04.665 2017] [20757:123145472569344] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 15:43:04.665 2017] [20757:123145472569344] [error] ajp_service::jk_ajp_common.c (2799): (worker3) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Thu Mar 09 15:43:04.665 2017] [20757:123145472569344] [info] service::jk_lb_worker.c (1590): service failed, worker worker3 is in error state
+[Thu Mar 09 15:43:04.769 2017] [20757:123145472569344] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=1, retry=1)
+[Thu Mar 09 15:43:04.769 2017] [20757:123145472569344] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=2, retry=1)
+[Thu Mar 09 15:43:04.770 2017] [20757:123145472569344] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=3, retry=1)
+[Thu Mar 09 15:43:04.770 2017] [20757:123145472569344] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Thu Mar 09 15:43:04.770 2017] [20757:123145472569344] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Thu Mar 09 15:43:04.770 2017] [20757:123145472569344] [info] jk_handler::mod_jk.c (2995): Service error=0 for worker=LoadBalancer
+[Thu Mar 09 16:16:09.540 2017] [26297:140735836701632] [info] init_jk::mod_jk.c (3595): mod_jk/1.2.42 initialized
+[Thu Mar 09 16:16:09.551 2017] [26311:140735836701632] [info] init_jk::mod_jk.c (3595): mod_jk/1.2.42 initialized
+[Thu Mar 09 16:39:35.982 2017] [29985:140735836701632] [info] init_jk::mod_jk.c (3595): mod_jk/1.2.42 initialized
+[Thu Mar 09 16:39:35.993 2017] [29999:140735836701632] [info] init_jk::mod_jk.c (3595): mod_jk/1.2.42 initialized
+[Thu Mar 09 23:42:49.164 2017] [30000:123145544552448] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 23:42:49.165 2017] [30000:123145544552448] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 23:42:49.165 2017] [30000:123145544552448] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 23:42:49.165 2017] [30000:123145544552448] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 23:42:49.270 2017] [30000:123145544552448] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 23:42:49.270 2017] [30000:123145544552448] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 23:42:49.270 2017] [30000:123145544552448] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 23:42:49.270 2017] [30000:123145544552448] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 23:42:49.271 2017] [30000:123145544552448] [error] ajp_service::jk_ajp_common.c (2799): (worker1) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Thu Mar 09 23:42:49.271 2017] [30000:123145544552448] [info] service::jk_lb_worker.c (1590): service failed, worker worker1 is in error state
+[Thu Mar 09 23:42:49.271 2017] [30000:123145544552448] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 23:42:49.271 2017] [30000:123145544552448] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 23:42:49.272 2017] [30000:123145544552448] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 23:42:49.272 2017] [30000:123145544552448] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 23:42:49.377 2017] [30000:123145544552448] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 23:42:49.377 2017] [30000:123145544552448] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 23:42:49.378 2017] [30000:123145544552448] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 23:42:49.378 2017] [30000:123145544552448] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 23:42:49.378 2017] [30000:123145544552448] [error] ajp_service::jk_ajp_common.c (2799): (worker2) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Thu Mar 09 23:42:49.378 2017] [30000:123145544552448] [info] service::jk_lb_worker.c (1590): service failed, worker worker2 is in error state
+[Thu Mar 09 23:42:49.378 2017] [30000:123145544552448] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 23:42:49.378 2017] [30000:123145544552448] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 23:42:49.379 2017] [30000:123145544552448] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 23:42:49.379 2017] [30000:123145544552448] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 23:42:49.480 2017] [30000:123145544552448] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 23:42:49.480 2017] [30000:123145544552448] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 23:42:49.480 2017] [30000:123145544552448] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 23:42:49.480 2017] [30000:123145544552448] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 23:42:49.480 2017] [30000:123145544552448] [error] ajp_service::jk_ajp_common.c (2799): (worker3) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Thu Mar 09 23:42:49.480 2017] [30000:123145544552448] [info] service::jk_lb_worker.c (1590): service failed, worker worker3 is in error state
+[Thu Mar 09 23:42:49.585 2017] [30000:123145544552448] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 3 workers
+[Thu Mar 09 23:42:49.586 2017] [30000:123145544552448] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 23:42:49.586 2017] [30000:123145544552448] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 23:42:49.586 2017] [30000:123145544552448] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 23:42:49.586 2017] [30000:123145544552448] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 23:42:49.692 2017] [30000:123145544552448] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8009 failed (errno=61)
+[Thu Mar 09 23:42:49.692 2017] [30000:123145544552448] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker1) Failed opening socket to (::1:8009) (errno=61)
+[Thu Mar 09 23:42:49.692 2017] [30000:123145544552448] [error] ajp_send_request::jk_ajp_common.c (1728): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 23:42:49.692 2017] [30000:123145544552448] [info] ajp_service::jk_ajp_common.c (2778): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 23:42:49.692 2017] [30000:123145544552448] [error] ajp_service::jk_ajp_common.c (2799): (worker1) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Thu Mar 09 23:42:49.692 2017] [30000:123145544552448] [info] service::jk_lb_worker.c (1590): service failed, worker worker1 is in error state
+[Thu Mar 09 23:42:49.693 2017] [30000:123145544552448] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 23:42:49.693 2017] [30000:123145544552448] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 23:42:49.693 2017] [30000:123145544552448] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 23:42:49.693 2017] [30000:123145544552448] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 23:42:49.797 2017] [30000:123145544552448] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8010 failed (errno=61)
+[Thu Mar 09 23:42:49.797 2017] [30000:123145544552448] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker2) Failed opening socket to (::1:8010) (errno=61)
+[Thu Mar 09 23:42:49.797 2017] [30000:123145544552448] [error] ajp_send_request::jk_ajp_common.c (1728): (worker2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 23:42:49.797 2017] [30000:123145544552448] [info] ajp_service::jk_ajp_common.c (2778): (worker2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 23:42:49.797 2017] [30000:123145544552448] [error] ajp_service::jk_ajp_common.c (2799): (worker2) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Thu Mar 09 23:42:49.797 2017] [30000:123145544552448] [info] service::jk_lb_worker.c (1590): service failed, worker worker2 is in error state
+[Thu Mar 09 23:42:49.798 2017] [30000:123145544552448] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 23:42:49.798 2017] [30000:123145544552448] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 23:42:49.798 2017] [30000:123145544552448] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 23:42:49.798 2017] [30000:123145544552448] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Mar 09 23:42:49.904 2017] [30000:123145544552448] [info] jk_open_socket::jk_connect.c (817): connect to ::1:8011 failed (errno=61)
+[Thu Mar 09 23:42:49.904 2017] [30000:123145544552448] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (worker3) Failed opening socket to (::1:8011) (errno=61)
+[Thu Mar 09 23:42:49.904 2017] [30000:123145544552448] [error] ajp_send_request::jk_ajp_common.c (1728): (worker3) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Mar 09 23:42:49.904 2017] [30000:123145544552448] [info] ajp_service::jk_ajp_common.c (2778): (worker3) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Mar 09 23:42:49.904 2017] [30000:123145544552448] [error] ajp_service::jk_ajp_common.c (2799): (worker3) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Thu Mar 09 23:42:49.904 2017] [30000:123145544552448] [info] service::jk_lb_worker.c (1590): service failed, worker worker3 is in error state
+[Thu Mar 09 23:42:49.904 2017] [30000:123145544552448] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Thu Mar 09 23:42:49.904 2017] [30000:123145544552448] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Thu Mar 09 23:42:49.904 2017] [30000:123145544552448] [info] jk_handler::mod_jk.c (2995): Service error=0 for worker=LoadBalancer

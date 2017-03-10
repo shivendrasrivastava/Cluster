@@ -1,0 +1,17 @@
+#! /bin/sh
+#
+# Created by configure
+
+"/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/srclib/apr/configure" \
+"--disable-option-checking" \
+"--with-pcre=/usr/local/pcre" \
+"--cache-file=/dev/null" \
+"--srcdir=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/srclib/apr" \
+"--prefix=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd" \
+"--exec-prefix=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd" \
+"--libdir=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/lib" \
+"--includedir=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/include" \
+"--bindir=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/bin" \
+"--datadir=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd" \
+"--with-installbuilddir=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/build" \
+"$@"

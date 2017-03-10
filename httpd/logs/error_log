@@ -1,0 +1,28 @@
+[Thu Mar 09 12:44:02.486566 2017] [core:error] [pid 87341] (13)Permission denied: AH00099: could not create /private/var/run/httpd.pid
+[Thu Mar 09 12:44:02.486713 2017] [core:error] [pid 87341] AH00100: httpd: could not log pid to file /private/var/run/httpd.pid
+[Thu Mar 09 12:50:51.318698 2017] [core:error] [pid 88412] (13)Permission denied: AH00099: could not create /private/var/run/httpd.pid
+[Thu Mar 09 12:50:51.319101 2017] [core:error] [pid 88412] AH00100: httpd: could not log pid to file /private/var/run/httpd.pid
+[Thu Mar 09 12:51:36.163495 2017] [core:error] [pid 88490] (13)Permission denied: AH00099: could not create /private/var/run/httpd.pid
+[Thu Mar 09 12:51:36.163624 2017] [core:error] [pid 88490] AH00100: httpd: could not log pid to file /private/var/run/httpd.pid
+[Thu Mar 09 12:55:04.299537 2017] [mpm_event:notice] [pid 89036:tid 140735836701632] AH00489: Apache/2.4.25 (Unix) configured -- resuming normal operations
+[Thu Mar 09 12:55:04.299942 2017] [core:notice] [pid 89036:tid 140735836701632] AH00094: Command line: './httpd'
+[Thu Mar 09 12:58:11.064650 2017] [mpm_event:notice] [pid 89036:tid 140735836701632] AH00491: caught SIGTERM, shutting down
+[Thu Mar 09 12:58:14.254995 2017] [mpm_event:notice] [pid 89536:tid 140735836701632] AH00489: Apache/2.4.25 (Unix) configured -- resuming normal operations
+[Thu Mar 09 12:58:14.255236 2017] [core:notice] [pid 89536:tid 140735836701632] AH00094: Command line: './httpd -f /Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/conf/httpd.conf'
+[Thu Mar 09 12:58:37.316384 2017] [mpm_event:notice] [pid 89536:tid 140735836701632] AH00491: caught SIGTERM, shutting down
+[Thu Mar 09 15:33:14.093291 2017] [mpm_event:notice] [pid 19401:tid 140735836701632] AH00489: Apache/2.4.25 (Unix) mod_jk/1.2.42 configured -- resuming normal operations
+[Thu Mar 09 15:33:14.093590 2017] [core:notice] [pid 19401:tid 140735836701632] AH00094: Command line: '/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/.libs/httpd'
+[Thu Mar 09 15:40:53.558480 2017] [mpm_event:notice] [pid 19401:tid 140735836701632] AH00491: caught SIGTERM, shutting down
+[Thu Mar 09 15:41:22.401506 2017] [mpm_event:notice] [pid 20754:tid 140735836701632] AH00489: Apache/2.4.25 (Unix) mod_jk/1.2.42 configured -- resuming normal operations
+[Thu Mar 09 15:41:22.401627 2017] [core:notice] [pid 20754:tid 140735836701632] AH00094: Command line: '/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/.libs/httpd'
+[Thu Mar 09 16:15:13.770375 2017] [mpm_event:notice] [pid 20754:tid 140735836701632] AH00491: caught SIGTERM, shutting down
+[Thu Mar 09 16:16:09.552965 2017] [mpm_event:notice] [pid 26311:tid 140735836701632] AH00489: Apache/2.4.25 (Unix) mod_jk/1.2.42 configured -- resuming normal operations
+[Thu Mar 09 16:16:09.553140 2017] [core:notice] [pid 26311:tid 140735836701632] AH00094: Command line: '/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/.libs/httpd'
+[Thu Mar 09 16:38:20.063037 2017] [mpm_event:notice] [pid 26311:tid 140735836701632] AH00491: caught SIGTERM, shutting down
+[Thu Mar 09 16:39:35.995453 2017] [mpm_event:notice] [pid 29999:tid 140735836701632] AH00489: Apache/2.4.25 (Unix) mod_jk/1.2.42 configured -- resuming normal operations
+[Thu Mar 09 16:39:35.995602 2017] [core:notice] [pid 29999:tid 140735836701632] AH00094: Command line: '/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/.libs/httpd'
+[Thu Mar 09 23:43:01.701110 2017] [core:warn] [pid 29999:tid 140735836701632] AH00045: child process 30002 still did not exit, sending a SIGTERM
+[Thu Mar 09 23:43:03.703542 2017] [core:warn] [pid 29999:tid 140735836701632] AH00045: child process 30002 still did not exit, sending a SIGTERM
+[Thu Mar 09 23:43:05.704829 2017] [core:warn] [pid 29999:tid 140735836701632] AH00045: child process 30002 still did not exit, sending a SIGTERM
+[Thu Mar 09 23:43:07.706115 2017] [core:error] [pid 29999:tid 140735836701632] AH00046: child process 30002 still did not exit, sending a SIGKILL
+[Thu Mar 09 23:43:08.708641 2017] [mpm_event:notice] [pid 29999:tid 140735836701632] AH00491: caught SIGTERM, shutting down

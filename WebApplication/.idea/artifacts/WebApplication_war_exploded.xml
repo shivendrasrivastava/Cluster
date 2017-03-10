@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebApplication:war exploded">
+    <output-path>$PROJECT_DIR$/target/WebApplication</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebApplication" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.0.M1" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.0.M1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.0.M1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.0.M1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.0.M1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.0.M1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.0.M1" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.0-b03" />
+          <element id="library" level="project" name="Maven: tomcat:catalina-cluster:5.5.23" />
+          <element id="library" level="project" name="Maven: tomcat:catalina:5.5.23" />
+          <element id="library" level="project" name="Maven: commons-modeler:commons-modeler:2.0" />
+          <element id="library" level="project" name="Maven: commons-digester:commons-digester:1.2" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging-api:1.0.4" />
+          <element id="library" level="project" name="Maven: mx4j:mx4j-jmx:2.1.1" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/WebApplication/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="WebApplication/web/Web" />
+    </root>
+  </artifact>
+</component>

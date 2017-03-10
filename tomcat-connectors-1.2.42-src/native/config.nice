@@ -1,0 +1,7 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--with-apxs=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/bin/apxs" \
+"$@"

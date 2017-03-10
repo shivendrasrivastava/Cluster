@@ -1,0 +1,13 @@
+prefix=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd
+exec_prefix=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd
+libdir=${prefix}/lib
+APRUTIL_MAJOR_VERSION=1
+includedir=/Users/shivendrasrivastava/Documents/Apache_SAPFieldglass/httpd/include
+
+Name: APR Utils
+Description: Companion library for APR
+Version: 1.5.4
+# assume that apr-util requires libapr of same major version
+Requires: apr-1
+Libs: -L${libdir} -laprutil-${APRUTIL_MAJOR_VERSION}  -lexpat -liconv
+Cflags: -I${includedir}
